@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { HiBars3, HiOutlineShoppingCart } from "react-icons/hi2";
-import { useSideBarDrawer } from "../lib/store";
+import { useSideBarDrawer } from "../../lib/store";
 
 const Header = () => {
   const { onSideBarOpen } = useSideBarDrawer();
