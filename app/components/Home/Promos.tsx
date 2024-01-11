@@ -6,7 +6,7 @@ const Promos = () => {
     {
       id: 1,
       title: "Grilled Salmon",
-      img: "/images/food/salmond.png",
+      img: "/images/food/salmao-grelhado.jpg",
       salesQ: 1100,
       likesN: 100,
       PercentOff: 14,
@@ -15,7 +15,7 @@ const Promos = () => {
     {
       id: 2,
       title: "Italian Gulash",
-      img: "/images/food/steak.png",
+      img: "/images/food/italian.jpg",
       salesQ: 2200,
       likesN: 100,
       PercentOff: 10,
@@ -24,7 +24,7 @@ const Promos = () => {
     {
       id: 3,
       title: "Mojito",
-      img: "/images/food/mojito.png",
+      img: "/images/food/mojito.jpg",
       salesQ: 770,
       likesN: 100,
       PercentOff: 8,
