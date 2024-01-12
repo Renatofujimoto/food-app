@@ -3,9 +3,9 @@ import React from "react";
 import { HiStar } from "react-icons/hi2";
 
 const HeroSection = () => {
-  const bannerImg = "/images/banner.jpg";
+  const bannerImg = "/img/banner.jpg";
   return (
-    <section className="relative h-72 md:h-96">
+    <section className="relative h-72 md:h-96 text-gray-600">
       <div
         className="relative h-48 md:h-72 bg-no-repeat bg-cove w-full"
         style={{ backgroundImage: `url(${bannerImg})` }}
@@ -13,7 +13,7 @@ const HeroSection = () => {
 
       <div className="absolute bottom-0 left-0 rounded-full w-28 h-28 p-1 overflow-hideen bg-white ring-2 ring-white">
         <Image
-          src="/images/logo.png"
+          src="/img/logo.png"
           alt="logo"
           width={100}
           height={100}

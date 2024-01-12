@@ -6,7 +6,7 @@ const Promos = () => {
     {
       id: 1,
       title: "Grilled Salmon",
-      img: "/images/food/salmao-grelhado.jpg",
+      img: "/img/food/salmao-grelhado.jpg",
       salesQ: 1100,
       likesN: 100,
       PercentOff: 14,
@@ -15,7 +15,7 @@ const Promos = () => {
     {
       id: 2,
       title: "Italian Gulash",
-      img: "/images/food/italian.jpg",
+      img: "/img/food/italian.jpg",
       salesQ: 2200,
       likesN: 100,
       PercentOff: 10,
@@ -24,7 +24,7 @@ const Promos = () => {
     {
       id: 3,
       title: "Mojito",
-      img: "/images/food/mojito.jpg",
+      img: "/img/food/mojito.jpg",
       salesQ: 770,
       likesN: 100,
       PercentOff: 8,
@@ -36,7 +36,7 @@ const Promos = () => {
     <>
       <div className="max-w-2xl mx-auto my-5 text-center">
         <h2
-          className="text-3xl leading-tight tracking-tight text-black
+          className="text-3xl leading-tight tracking-tight text-gray-600
         sm:text-4xl"
         >
           {" "}
