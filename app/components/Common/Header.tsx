@@ -6,7 +6,7 @@ import { useSideBarDrawer } from "../../lib/store";
 const Header = () => {
   const { onSideBarOpen } = useSideBarDrawer();
   return (
-    <header className="grid grid-cols-2 py-5 px-4 md:px-12 items-center sticky top-0 z-10 bg-white">
+    <header className="grid grid-cols-2 py-5 px-4 md:px-12 items-center sticky top-0 z-10 bg-yellow-300">
       <div className="flex justify-between items-center gap-[170%] ">
         {/* Left Area  */}
 
