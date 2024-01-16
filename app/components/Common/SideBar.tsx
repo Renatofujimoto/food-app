@@ -7,7 +7,7 @@ import { HiHome, HiOutlineArrowRightOnRectangle } from "react-icons/hi2";
 import { FaReceipt } from "react-icons/fa";
 import { BsHeartFill } from "react-icons/bs";
 import { MdHelp } from "react-icons/md";
-import { useSideBarDrawer } from "../../lib/store";
+import { useSideBarDrawer } from "@/lib/store";
 
 const Links = [
   { title: "Home", icon: HiHome, url: "/" },
@@ -23,13 +23,13 @@ const SideBar = () => {
       <div className="flex flex-col gap-y-6 px-6 pt-8 text-gray-600">
         <div className="flex justify-center my-3">
           <Link href="/" className="outline-none">
-            <Image src="/images/logo.png" alt="logo" width={40} height={40} />
+            <Image src="/img/logo.png" alt="logo" width={40} height={40} />
           </Link>
         </div>
 
         <div className="flex items-center p-3 transition-all font-semibold">
           <Image
-            src="/images/logo.jpg"
+            src="/img/logo.jpg"
             alt="logo"
             width={40}
             height={40}
