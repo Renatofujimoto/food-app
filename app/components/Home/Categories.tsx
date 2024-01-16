@@ -1,4 +1,4 @@
-import { categoriesData } from "@/app/data/categories-data";
+import { categoriesData } from "@/data/categories-data";
 import Image from "next/image";
 
 const Categories = () => {

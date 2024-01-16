@@ -7,7 +7,7 @@ import { HiHome, HiOutlineArrowRightOnRectangle } from "react-icons/hi2";
 import { FaReceipt } from "react-icons/fa";
 import { BsHeartFill } from "react-icons/bs";
 import { MdHelp } from "react-icons/md";
-import { useSideBarDrawer } from "../../lib/store";
+import { useSideBarDrawer } from "@/lib/store";
 
 const Links = [
   { title: "Home", icon: HiHome, url: "/" },

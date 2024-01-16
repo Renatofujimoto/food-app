@@ -1,4 +1,4 @@
-import { MenuData } from "@/app/data/menu-data";
+import { MenuData } from "@/data/menu-data";
 import React from "react";
 import MenuModal from "./MenuModal";
 
@@ -13,7 +13,7 @@ const MenuSection = () => {
           Menu
         </h2>
       </div>
-      <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3 md:grid-cols-2">
+      <div className="my-8 grid grid-cols-1 gap-8 sm:grid-cols-3 md:grid-cols-2">
         {MenuData.map((menu) => (
           <MenuModal
             menu={menu}
