@@ -14,7 +14,15 @@ export default async function Cart() {
           <CartTopSection />
 
           <div className="flex flex-col space-y-4 border-t">
-            <CartSummary />
+            <CartSummary
+              user={{
+                id: 0,
+                name: "",
+                email: "",
+                img: "",
+                role: "",
+              }}
+            />
           </div>
         </div>
       </div>
