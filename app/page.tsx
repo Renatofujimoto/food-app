@@ -1,3 +1,4 @@
+import Footer from "./components/Common/Footer";
 import Header from "./components/Common/Header";
 import SideBar from "./components/Common/SideBar";
 import Categories from "./components/Home/Categories";
@@ -14,6 +15,7 @@ export default function Home() {
       <Promos />
       <Categories />
       <MenuSection />
+      <Footer />
     </div>
   );
 }

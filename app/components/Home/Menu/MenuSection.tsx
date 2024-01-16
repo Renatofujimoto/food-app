@@ -15,7 +15,17 @@ const MenuSection = () => {
       </div>
       <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3 md:grid-cols-2">
         {MenuData.map((menu) => (
-          <MenuModal menu={menu} key={menu.id} />
+          <MenuModal
+            menu={menu}
+            key={menu.id}
+            user={{
+              id: 0,
+              name: "",
+              email: "",
+              img: "",
+              role: "",
+            }}
+          />
         ))}
       </div>
     </section>
