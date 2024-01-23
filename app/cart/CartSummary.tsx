@@ -3,19 +3,12 @@
 import { useEffect, useState } from "react";
 
 import CartList from "./CartList";
-import { FaCartArrowDown } from "react-icons/fa";
-import { useRouter } from "next/navigation";
+import LocationBtn from "../components/Common/LocationBtn";
 
-type Props = {
-  user: User;
-};
-
-const CartSummary = ({ user }: Props) => {
+const CartSummary = () => {
   const [subTotal, setSubTotal] = useState(0);
   const [note, setNote] = useState("");
 
-  const userName = user?.name as string;
-  const email = user?.email as string;
   const serviceFee = 6;
   const deliveryFee = 3;
   const discount = 2;
@@ -36,7 +29,9 @@ const CartSummary = ({ user }: Props) => {
               <h2 className="text-lg leading-6 my-4 font-medium text-gray-900">
                 Delivery Address
               </h2>
-              <div>Location</div>
+              <div>
+                <LocationBtn />
+              </div>
             </div>
           </div>
           <div>
